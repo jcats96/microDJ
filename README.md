@@ -3,6 +3,8 @@ A minimal MIDI DJ controller that fits in an Altoids tin, using the wonderful [C
 
 I started laptop DJing with [Mixxx](https://www.mixxx.org/) and I wanted a controller, but most commercially available controllers are too full featured. I wanted to start with the bare minimum, a crossfader, and work my way up from there. I've since realized that I need a few more controls. The handheld size makes it fun to pass around at a party.
 
+![microDJ](microDJ.JPG)
+
 ## Features
 
 One crossfader.
