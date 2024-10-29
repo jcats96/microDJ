@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MixxxControllerPreset mixxxVersion="" schemaVersion="1">
+    <info>
+        <name>microDJ</name>
+    </info>
+    <controller id="MyRotaryController">
+        <scriptfiles>
+            <file filename="micro.js" functionprefix="MyController"/>
+        </scriptfiles>
+        <controls>
+            <control>
+                <group>[Master]</group>
+                <key>crossfader</key>
+                <description>MIDI Learned from 353 messages.</description>
+                <status>0xB0</status>
+                <midino>0x0A</midino>
+                <options>
+                    <invert/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>MyController.rotaryTurn</key>
+                <status>0xB0</status>
+                <midino>0x10</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>LoadSelectedTrack</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0xB0</status>
+                <midino>0x11</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>play</key>
+                <description>MIDI Learned from 6 messages.</description>
+                <status>0xB0</status>
+                <midino>0x12</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Sampler4]</group>
+                <key>cue_gotoandplay</key>
+                <description>MIDI Learned from 6 messages.</description>
+                <status>0xB0</status>
+                <midino>0x13</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Sampler1]</group>
+                <key>cue_gotoandplay</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0xB0</status>
+                <midino>0x50</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Sampler2]</group>
+                <key>cue_gotoandplay</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0xB0</status>
+                <midino>0x51</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>play</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0xB0</status>
+                <midino>0x52</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Sampler3]</group>
+                <key>cue_gotoandplay</key>
+                <description>MIDI Learned from 4 messages.</description>
+                <status>0xB0</status>
+                <midino>0x53</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+        </controls>
+        <outputs/>
+    </controller>
+</MixxxControllerPreset>
