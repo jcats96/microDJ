@@ -52,6 +52,6 @@ coming soon
 
 ## Future Improvements
 
-It would be nice to have the jog wheel in a bank so it can also map to another MIDI channel to seek on deck 2.
+It would be nice to have the jog wheel in a bank so it can also map to another MIDI channel to seek on deck 2. But I would have to either add a new input or use an existing one to switch between seeking on deck 1 and deck 2. And something to indicate that the active deck is switched.
 
 It would also be nice to use a Raspberry Pi Pico - it's much cheaper. It's been a few years since I last developed with microcontrollers, and I'm most familiar with Arduinos. But the Pi Pico is way cheaper at $4 instead of the $25 for an Arduino Micro.
