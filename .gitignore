@@ -33,3 +33,6 @@
 
 # PlatformIO
 .pio
+
+# Ignore the .vscode directory
+.vscode/
